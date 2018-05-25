@@ -1,4 +1,4 @@
-# sublime-html-script-all
+# Sublime All HTML Syntax in Script
 
 **Note** This should be used for only  Sublime Text build < 3153 due to changes in syntax highlighting.
 
