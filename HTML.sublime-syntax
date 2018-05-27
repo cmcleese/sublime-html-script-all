@@ -386,7 +386,7 @@ contexts:
         - script-javascript
         - tag-generic-attribute-meta
         - tag-generic-attribute-value
-    - match: (?i)(?=text/html(?!{{unquoted_attribute_value}})|'text/'*|"text/"*)
+    - match: (?i)(?=text/(?!{{unquoted_attribute_value}})|'text/'*|"text/"*)
       set:
         - script-html
         - tag-generic-attribute-meta
